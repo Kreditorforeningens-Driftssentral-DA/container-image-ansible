@@ -7,7 +7,7 @@ Debian container, with python/ansible installed.
 #### ENVIRONMENT VARIABLES
 
 | VARIABLE | DEFAULT | DESCRIPTION |
-| :-- | :-: |:-- |
+| :-- | :-: | :-- |
 | RUN_AS_ROOT | (Unset)  | Run container/commands as root (defaults unprivileged user) |
 
 #### EXAMPLES
