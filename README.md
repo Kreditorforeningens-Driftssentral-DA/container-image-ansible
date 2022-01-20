@@ -20,6 +20,6 @@ docker run --rm -it kdsda/ansible:0.1
 docker run -v $(pwd)/playbooks:/srv/playbooks:ro --rm -it kdsda/ansible:0.1 bash
 
 # Map folder & start shell (as root)
-docker run -v $(pwd)/playbooks:/srv/playbooks:ro -e RUNS_AS_ROOT=1 --rm -it kdsda/ansible:0.1 bash
+docker run -v $(pwd)/playbooks:/srv/playbooks:ro -e RUN_AS_ROOT=1 --rm -it kdsda/ansible:0.1 bash
 
 ```
