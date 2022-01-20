@@ -9,8 +9,8 @@ name: Ansible Build and Push (Public)
 
 on:
   
-  #schedule:
-  #- cron: '0 0 15 * *' # https://crontab.guru/
+  schedule:
+  - cron: '15 0 1 * *' # https://crontab.guru/#15_0_1_*_*
 
   create:
     tags:
@@ -36,7 +36,7 @@ jobs:
       with:
         images: registry.hub.docker.com/kdsda/ansible
         flavor: |
-          latest=false
+          latest=auto
         tags: |
           type=raw,value=${{ steps.timestamp.outputs.week }}
           type=semver,pattern={{version}}
