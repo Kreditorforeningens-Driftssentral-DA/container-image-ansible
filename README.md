@@ -3,6 +3,9 @@
 
 Debian container, with python/ansible installed.
 
+- Download image from [Docker Hub](https://hub.docker.com/r/kdsda/ansible)
+- Source on [GitHub](https://github.com/Kreditorforeningens-Driftssentral-DA/container-image-ansible)
+
 
 #### ENVIRONMENT VARIABLES
 
@@ -10,7 +13,8 @@ Debian container, with python/ansible installed.
 | :-- | :-: | :-- |
 | RUN_AS_ROOT | (Unset)  | Run container/commands as root (defaults unprivileged user) |
 
-#### EXAMPLES
+
+#### EXAMPLE USE
 
 ```bash
 # Default (print version)
