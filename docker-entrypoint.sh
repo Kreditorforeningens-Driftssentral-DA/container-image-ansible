@@ -2,8 +2,6 @@
 
 # Run commands as ansible user, unless env is set
 if [ -z "${RUN_AS_ROOT}" ]; then
-  #chown -R ansible:ansible ${VIRTUAL_ENV}
-  pushd /home/ansible
   set -- gosu ansible ${@}
 fi
 

@@ -40,6 +40,8 @@ RUN set -ex \
      --gecos "Ansible User" \
      --disabled-password ansible
 
+WORKDIR /home/ansible
+
 COPY --chmod="755" ["docker-entrypoint.sh", "/usr/local/bin/"]
 ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 CMD ["ansible","--version"]
