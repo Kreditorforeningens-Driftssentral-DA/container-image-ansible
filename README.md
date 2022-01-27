@@ -3,8 +3,9 @@
 
 Debian container, with python/ansible installed.
 
-- Download image from [Docker Hub](https://hub.docker.com/r/kdsda/ansible)
 - Source on [GitHub](https://github.com/Kreditorforeningens-Driftssentral-DA/container-image-ansible)
+- Pull image from [GitHub](https://github.com/Kreditorforeningens-Driftssentral-DA/container-image-ansible/pkgs/container/container-image-ansible)
+- Pull image from [Docker Hub](https://hub.docker.com/r/kdsda/ansible)
 
 
 #### ENVIRONMENT VARIABLES
