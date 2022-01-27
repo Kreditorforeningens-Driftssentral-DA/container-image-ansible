@@ -1,6 +1,5 @@
 # container-image-ansible
-[![Build (GitHub)](https://github.com/Kreditorforeningens-Driftssentral-DA/container-image-ansible/actions/workflows/docker-github.yml/badge.svg)](https://github.com/Kreditorforeningens-Driftssentral-DA/container-image-ansible/actions/workflows/docker-github.yml)
-[![Build (Docker Hub)](https://github.com/Kreditorforeningens-Driftssentral-DA/container-image-ansible/actions/workflows/docker-dockerhub.yml/badge.svg)](https://github.com/Kreditorforeningens-Driftssentral-DA/container-image-ansible/actions/workflows/docker-dockerhub.yml)
+[![Build (Docker)](https://github.com/Kreditorforeningens-Driftssentral-DA/container-image-ansible/actions/workflows/docker-build.yml/badge.svg)](https://github.com/Kreditorforeningens-Driftssentral-DA/container-image-ansible/actions/workflows/docker-build.yml)
 
 Debian container, with python/ansible installed.
 
