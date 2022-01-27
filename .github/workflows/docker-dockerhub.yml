@@ -3,6 +3,8 @@ name: Build (Docker Hub)
 
 on:
   
+  workflow_dispatch:
+
   schedule:
   - cron: '15 0 15 */2 *' # https://crontab.guru/#15_0_1_*_*
 
