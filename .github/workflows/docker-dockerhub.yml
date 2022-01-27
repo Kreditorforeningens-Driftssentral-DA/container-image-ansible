@@ -5,12 +5,12 @@ on:
   
   workflow_dispatch:
 
-  schedule:
-  - cron: '15 0 15 */2 *' # https://crontab.guru/#15_0_1_*_*
+  #schedule:
+  #- cron: '15 0 15 */2 *' # https://crontab.guru/#15_0_1_*_*
 
-  create:
-    tags:
-    - 'v*.*.*'
+  #create:
+  #  tags:
+  #  - 'v*.*.*'
 
 jobs:
   docker-build:

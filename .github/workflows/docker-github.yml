@@ -5,12 +5,12 @@ on:
   
   workflow_dispatch:
   
-  schedule:
-  - cron: '30 0 1 * *' # https://crontab.guru/
+  #schedule:
+  #- cron: '30 0 1 * *' # https://crontab.guru/
   
-  create:
-    tags:
-    - 'v*.*.*'
+  #create:
+  #  tags:
+  #  - 'v*.*.*'
 
 env:
   REGISTRY: ghcr.io
